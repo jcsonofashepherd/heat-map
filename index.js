@@ -47,8 +47,7 @@ const graphJSON = (json) => {
 		else {
 			color = colorArray[0];
 		}
-			
-		dataset.push([val["year"], val["month"], val["variance"], overallTemp, color, month]);
+		dataset.push([val.year, val.month, val.variance, overallTemp, color, monthConvert[val.month]]);
 	})
 		
 	// setting svg canvas and elements

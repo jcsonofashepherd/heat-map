@@ -12,3 +12,33 @@ svg {
   background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+rect.heatBar:hover {
+  fill: #eeeeee;
+}
+
+div.tooltip {
+  position: fixed;
+  text-align: center;
+  padding: 5px;
+  font: 14px Cambria;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+text.titleLabel {
+  font: 30px Tahoma;
+}
+
+text.titleSubLabel {
+  font: 12px Tahoma;
+}
+
+text.xAxisLabel,
+text.yAxisLabel {
+  font: 16px Cambria;
+}
